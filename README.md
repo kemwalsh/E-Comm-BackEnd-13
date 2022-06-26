@@ -58,7 +58,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Application Features:
 
-<!-- - Allows user to create HTML page from node  -->
+- Allows user to create HTML page from node 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,7 +66,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 Video link displaying functionality:
 
-<!-- (https://drive.google.com/file/d/1vMatzI_ANvlNF2MA9eaoKh-R1yOhb1k9/view) -->
+(https://drive.google.com/file/d/1idfY4ZblPq3HlwQJv-SuGMtD0q9UrPaR/view?usp=sharing)
 
 
 ### Built With
