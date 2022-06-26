@@ -1,13 +1,34 @@
-# E-Comm-BackEnd-13
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Stargazers][stars-shield]][stars-url]
+[![GitHub Watchers][github-watchers]][github-watchers-url]
 
-## Your Task
+<div align="center">
+# E-Commerce Back End </div>
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://kemwalsh.github.io/E-Comm-BackEnd-13">
+  </a>
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+<h3 align="center">E-Commerce Back End</h3>
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+  <p align="center">
+    <br />
+    <a href="https://github.com/kemwalsh/E-Comm-BackEnd-13"><strong>Explore the Docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://kemwalsh.github.io/E-Comm-BackEnd-13/">View Demo</a>
+    ·
+    <a href="https://github.com/kemwalsh/E-Comm-BackEnd-13/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kemwalsh/E-Comm-BackEnd-13/issues">Request Feature</a>
+  </p>
+</div>
+
 
 ## User Story
 
@@ -33,227 +54,67 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Mock-Up
-
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+## Application Features:
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+<!-- - Allows user to create HTML page from node  -->
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+## Application Appearance and Functionality:
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+Video link displaying functionality:
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+<!-- (https://drive.google.com/file/d/1vMatzI_ANvlNF2MA9eaoKh-R1yOhb1k9/view) -->
 
-## Getting Started
 
-You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
+### Built With
 
-Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name.
+- [Node.js](https://nodejs.org/en/)
+- [MySql](https://www.mysql.com/)
+- [Insomnia](https://insomnia.rest/)
 
-### Database Models
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Your database should contain the following four models, including the requirements listed for each model:
+## Project Links
 
-* `Category`
+[Repository](https://github.com/kemwalsh/E-Comm-BackEnd-13)
 
-  * `id`
+[Live Website](https://kemwalsh.github.io/E-Comm-BackEnd-13/)
 
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+## Credits
 
-  * `category_name`
-  
-    * String.
-  
-    * Doesn't allow null values.
+List of Contributors:
 
-* `Product`
+1. Kelly Walsh
 
-  * `id`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+## Contact Info
 
-  * `product_name`
-  
-    * String.
-  
-    * Doesn't allow null values.
+Kelly Walsh - kellywalsh827@gmail.com
+<br>
+[![LinkedIn][linkedin-shield]][linkedin-url-kelly] [![GitHub][github-shield]][github-url-kelly] </br>
 
-  * `price`
-  
-    * Decimal.
-  
-    * Doesn't allow null values.
-  
-    * Validates that the value is a decimal.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-  * `stock`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set a default value of `10`.
-  
-    * Validates that the value is numeric.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-  * `category_id`
-  
-    * Integer.
-  
-    * References the `Category` model's `id`.
+[contributors-shield]: https://img.shields.io/github/contributors/kemwalsh/E-Comm-BackEnd-13.svg?style=for-the-badge
+[contributors-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kemwalsh/E-Comm-BackEnd-13.svg?style=for-the-badge
+[forks-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/network/members
+[stars-shield]: https://img.shields.io/github/stars/kemwalsh/E-Comm-BackEnd-13?style=social
+[stars-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kemwalsh/E-Comm-BackEnd-13.svg?style=for-the-badge
+[issues-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/issues
+[license-shield]: https://img.shields.io/github/license/kemwalsh/E-Comm-BackEnd-13?style=for-the-badge
+[license-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url-kelly]: https://www.linkedin.com/in/kellywalsh001/
+[github-shield]: https://img.shields.io/badge/-Github-blueviolet.svg?style=for-the-badge&logo=Github&colorB=555
+[github-url-kelly]: https://github.com/kemwalsh
+[github-watchers]: https://img.shields.io/github/watchers/kemwalsh/E-Comm-BackEnd-13?style=social
+[github-watchers-url]: https://github.com/kemwalsh/E-Comm-BackEnd-13/watchers
 
-* `Tag`
-
-  * `id`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
-
-  * `tag_name`
-  
-    * String.
-
-* `ProductTag`
-
-  * `id`
-
-    * Integer.
-
-    * Doesn't allow null values.
-
-    * Set as primary key.
-
-    * Uses auto increment.
-
-  * `product_id`
-
-    * Integer.
-
-    * References the `Product` model's `id`.
-
-  * `tag_id`
-
-    * Integer.
-
-    * References the `Tag` model's `id`.
-
-### Associations
-
-You'll need to execute association methods on your Sequelize models to create the following relationships between them:
-
-* `Product` belongs to `Category`, and `Category` has many `Product` models, as a category can have multiple products but a product can only belong to one category.
-
-* `Product` belongs to many `Tag` models, and `Tag` belongs to many `Product` models. Allow products to have multiple tags and tags to have many products by using the `ProductTag` through model.
-
-> **Hint:** Make sure you set up foreign key relationships that match the column we created in the respective models.
-
-### Fill Out the API Routes to Perform RESTful CRUD Operations
-
-Fill out the unfinished routes in `product-routes.js`, `tag-routes.js`, and `category-routes.js` to perform create, read, update, and delete operations using your Sequelize models.
-
-Note that the functionality for creating the many-to-many relationship for products has already been completed for you.
-
-> **Hint**: Be sure to look at the mini-project code for syntax help and use your model's column definitions to figure out what `req.body` will be for POST and PUT routes!
-
-### Seed the Database
-
-After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
-
-### Sync Sequelize to the Database on Server Start
-
-Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 10%
-
-* The GitHub repository containing your application code.
-
-### Walkthrough Video: 37%
-
-* A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your readme file.
-
-* The walkthrough video must show all of the technical acceptance criteria being met.
-
-* The walkthrough video must demonstrate how to create the schema from the MySQL shell.
-
-* The walkthrough video must demonstrate how to seed the database from the command line.
-
-* The walkthrough video must demonstrate how to start the application’s server.
-
-* The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia.
-
-* The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia.
-
-* The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * Connects to a MySQL database using the [MySQL2](https://www.npmjs.com/package/mysql) and [Sequelize](https://www.npmjs.com/package/sequelize) packages.
-
-  * Stores sensitive data, like a user’s MySQL username, password, and database name, using environment variables through the [dotenv](https://www.npmjs.com/package/dotenv) package.
-
-  * Syncs Sequelize models to a MySQL database on the server start.
-
-  * Includes column definitions for all four models outlined in the Challenge instructions.
-
-  * Includes model associations outlined in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description and a link to a walkthrough video.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+# E-Comm-BackEnd-13
