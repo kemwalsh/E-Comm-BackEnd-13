@@ -11,7 +11,6 @@ router.get('/', (req, res) => {
     res.json(allCategories)
   })
   // be sure to include its associated Products
-
 });
 
 router.get('/:id', (req, res) => {
